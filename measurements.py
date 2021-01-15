@@ -46,6 +46,6 @@ print(total_annual_prec)
 
 relative_prec = []
 for month  in total:
-    relative_prec.append(month/total_annual_prec)
+    relative_prec.append((month/total_annual_prec)*100)
     
 print(relative_prec)
